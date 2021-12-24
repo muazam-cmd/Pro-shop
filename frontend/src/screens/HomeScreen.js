@@ -13,7 +13,6 @@ const HomeScreen = () => {
                     </Col>
                 ))}
             </Row>
-
         </>
     )
 }
