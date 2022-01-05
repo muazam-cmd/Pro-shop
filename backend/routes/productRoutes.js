@@ -10,6 +10,7 @@ const router = express.Router()
 
 router.get('/', asyncHandler(async (req, res) => {
     const products = await Product.find({})
+    // error msg to be show here if any!
     res.json(products)
 }))
 
